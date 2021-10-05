@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced.Delegates", "CSharpAdvanced.Delegates\CSharpAdvanced.Delegates.csproj", "{C1778800-BBD9-4E0E-B861-87B92B2DA72C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAdvanced.Delegates", "CSharpAdvanced.Delegates\CSharpAdvanced.Delegates.csproj", "{C1778800-BBD9-4E0E-B861-87B92B2DA72C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced.Events", "CSharpAdvanced.Events\CSharpAdvanced.Events.csproj", "{57913FF5-5A92-4D94-B298-152A50BC4757}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C1778800-BBD9-4E0E-B861-87B92B2DA72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1778800-BBD9-4E0E-B861-87B92B2DA72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1778800-BBD9-4E0E-B861-87B92B2DA72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57913FF5-5A92-4D94-B298-152A50BC4757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57913FF5-5A92-4D94-B298-152A50BC4757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57913FF5-5A92-4D94-B298-152A50BC4757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57913FF5-5A92-4D94-B298-152A50BC4757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
