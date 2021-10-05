@@ -1,11 +1,11 @@
-﻿using CSharpAdvanced.Delegates.Models;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using CSharpAdvanced.Delegates.Models;
 
 namespace CSharpAdvanced.Delegates
 {
     public class EmployeeServices
     {
-        public static List<Employee> Employees = new List<Employee>();
+        public List<Employee> Employees = new List<Employee>();
 
         public EmployeeServices()
         {
@@ -20,9 +20,17 @@ namespace CSharpAdvanced.Delegates
             }
         }
 
-        public void PrintEmployeeWithCondition()
-        {
+        public delegate bool FilterEmployee(Employee employee);
 
+        public void PrintEmployeeWithCondition(List<Employee> employees, string title, FilterEmployee filterEmployee)
+        {
+            foreach (var emp in employees)
+            {
+                if (filterEmployee(emp))
+                {
+                    System.Console.WriteLine($"id = {emp.Id} - Name = {emp.Name} - Salary {emp.Salary}");
+                }
+            }
         }
     }
 }
