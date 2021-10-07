@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAdvanced.Events", "CS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced.OOP.Constructor", "CSharpAdvanced.OOP.Constructor\CSharpAdvanced.OOP.Constructor.csproj", "{11A39B7E-6FCD-4B58-884A-C4FB0BBC966C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced.OOP.Properties", "CSharpAdvanced.OOP.Properties\CSharpAdvanced.OOP.Properties.csproj", "{B5F9D849-D2EC-4390-B41D-5E7D356E7676}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{11A39B7E-6FCD-4B58-884A-C4FB0BBC966C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11A39B7E-6FCD-4B58-884A-C4FB0BBC966C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11A39B7E-6FCD-4B58-884A-C4FB0BBC966C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F9D849-D2EC-4390-B41D-5E7D356E7676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F9D849-D2EC-4390-B41D-5E7D356E7676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F9D849-D2EC-4390-B41D-5E7D356E7676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F9D849-D2EC-4390-B41D-5E7D356E7676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
