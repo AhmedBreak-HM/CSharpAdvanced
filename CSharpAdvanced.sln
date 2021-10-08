@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced.OOP.Construc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced.OOP.Properties", "CSharpAdvanced.OOP.Properties\CSharpAdvanced.OOP.Properties.csproj", "{B5F9D849-D2EC-4390-B41D-5E7D356E7676}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced.OOP.Indexers", "CSharpAdvanced.OOP.Indexers\CSharpAdvanced.OOP.Indexers.csproj", "{AA7777CF-03D9-4EC7-AE36-BC0716079520}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B5F9D849-D2EC-4390-B41D-5E7D356E7676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5F9D849-D2EC-4390-B41D-5E7D356E7676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5F9D849-D2EC-4390-B41D-5E7D356E7676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7777CF-03D9-4EC7-AE36-BC0716079520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7777CF-03D9-4EC7-AE36-BC0716079520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7777CF-03D9-4EC7-AE36-BC0716079520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7777CF-03D9-4EC7-AE36-BC0716079520}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
